@@ -1,4 +1,4 @@
-/* Nama File    : MTitik.java
+/* Nama File    : Titik.java
  * Deskipsi     : berisi atribut dan method dalam class Titik
  * Pembuat      : Kayla Febrina Laura Ayu / 24060124120004  
  * Tanggal      : 24 Februari 2026

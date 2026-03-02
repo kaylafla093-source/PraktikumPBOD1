@@ -1,3 +1,9 @@
+/* Nama File    : MTitik.java
+ * Deskipsi     : berisi atribut dan method dalam class Titik
+ * Pembuat      : Kayla Febrina Laura Ayu / 24060124120004  
+ * Tanggal      : 24 Februari 2026
+ */
+
 public class MTitik {
     public static void main(String[] args) {
         Titik T1 = new Titik(); //Membuat objek titik T1 (0,0)
