@@ -1,0 +1,72 @@
+/* Nama File    : Persegi.java
+ * Deskipsi     : berisi atribut dan method dalam class Persegi
+ * Pembuat      : Kayla Febrina Laura Ayu / 24060124120004  
+ * Tanggal      : 10 Maret 2026
+ */
+
+public class Persegi extends BangunDatar {
+    private double sisi;
+
+    public Persegi() {
+        setJmlSisi(4);
+    }
+
+    // public Persegi(double sisi, String warna, String border) {
+    //     this.sisi = sisi;
+    //     setWarna(warna);
+    //     setBorder(border);
+    //     setJmlSisi(4);
+    // }
+
+    public Persegi(double sisi, String warna, String border) {
+        this.jmlSisi = 4;
+        this.warna = warna;
+        this.border = border;
+        this.sisi = sisi;
+    }
+
+// Konstruktor tersebut dapat direalisasikan karena atribut pada kelas
+// BangunDatar bersifat protected, sehingga bisa diakses langsung oleh 
+// subclass (kelas Persegi) dan dapat diinisialisasi di konstruktor.
+
+    // public Persegi(double sisi, String warna, String border) {
+    //     super(4, warna, border);
+    //     this.sisi = sisi;
+    // }
+
+    public double getSisi() {
+        return sisi;
+    }
+
+    public void setSisi(double sisi) {
+        this.sisi = sisi;
+    }
+
+    public double getLuas() {
+        return sisi * sisi;
+    }
+
+    public double getKeliling() {
+        return 4 * sisi;
+    }
+
+    public double getDiagonal() {
+        return sisi * Math.sqrt(2);
+    }
+
+    // public void printInfo() {
+    //     System.out.println("Jumlah sisi: " + getJmlSisi());
+    //     System.out.println("Warna: " + getWarna());
+    //     System.out.println("Border: " + getBorder());
+    //     System.out.println("Sisi: " + sisi);
+    // }
+
+    public void printInfo() {
+        super.printInfo();
+        System.out.println("Sisi: " + sisi);
+    }
+
+    public static void printCounterBangunDatar() {
+        System.out.println("Jumlah Objek Bangun Datar dari kelas Persegi: " + counterBangunDatar);
+    }
+}

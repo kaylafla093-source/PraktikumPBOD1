@@ -20,8 +20,7 @@ public class App {
         System.out.println("Nama: " + nama);
         System.out.println("Umur: " + umur);
         System.out.println("IPK: " + ipk);
-        System.out.println("Status: " + (mahasiswaAktif ? 
-"Aktif" : "Tidak Aktif"));
+        System.out.println("Status: " + (mahasiswaAktif ? "Aktif" : "Tidak Aktif"));
         
         // Conditional if-else untuk menentukan predikat
         System.out.print("Predikat: ");
@@ -50,14 +49,12 @@ public class App {
     public static void contohArrayDanLooping() {
         // Deklarasi dan inisialisasi array
         int[] nilaiUjian = {85, 92, 78, 95, 88};
-        String[] mataKuliah = {"Matematika", "Fisika", 
-"Pemrograman", "Basis Data", "Algoritma"};
+        String[] mataKuliah = {"Matematika", "Fisika", "Pemrograman", "Basis Data", "Algoritma"};
         
         // Menampilkan data dengan for loop
         System.out.println("Daftar Nilai:");
         for (int i = 0; i < nilaiUjian.length; i++) {
-            System.out.println((i + 1) + ". " + mataKuliah[i] 
-+ ": " + nilaiUjian[i]);
+            System.out.println((i + 1) + ". " + mataKuliah[i] + ": " + nilaiUjian[i]);
         }
         
         // Menghitung total dan rata-rata menggunakan for
@@ -93,11 +90,10 @@ public class App {
   int idx = 0;
   do {
       if (nilaiUjian[idx] >= 75) {
-jumlahLulus++;
+        jumlahLulus++;
       }
       idx++;
   } while (idx < nilaiUjian.length);
-  System.out.println("Jumlah Mata Kuliah yang Lulus: " 
-+ jumlahLulus + " dari " + nilaiUjian.length);
+  System.out.println("Jumlah Mata Kuliah yang Lulus: " + jumlahLulus + " dari " + nilaiUjian.length);
     }
 }
