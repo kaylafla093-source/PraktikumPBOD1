@@ -4,7 +4,7 @@
  * Tanggal      : 10 Maret 2026
  */
 
-public class Lingkaran extends BangunDatar {
+public class Lingkaran extends BangunDatar1 {
     private double jari;
 
     public Lingkaran() {
@@ -38,6 +38,7 @@ public class Lingkaran extends BangunDatar {
         return 2 * Math.PI * jari;
     }
 
+    @Override
     public void printInfo() {
         System.out.println("Warna: " + getWarna());
         System.out.println("Border: " + getBorder());

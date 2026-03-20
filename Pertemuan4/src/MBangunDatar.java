@@ -21,8 +21,8 @@ public class MBangunDatar {
         System.out.println("Luas: " + l.getLuas());
         System.out.println("Keliling: " + l.getKeliling());
 
-        BangunDatar b1 = new BangunDatar();
-        BangunDatar b2 = new BangunDatar();
+        BangunDatar1 b1 = new BangunDatar1();
+        // BangunDatar1 b2 = new BangunDatar1();
 
         b1.printCounterBangunDatar();
 

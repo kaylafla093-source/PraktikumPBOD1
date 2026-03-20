@@ -2,7 +2,7 @@
  * Deskipsi     : berisi atribut dan method dalam class Tendik
  * Pembuat      : Kayla Febrina Laura Ayu / 24060124120004  
  * Tanggal      : 12 Maret 2026
- */
+*/
 
 import java.time.LocalDate;
 import java.time.Period;

@@ -4,7 +4,7 @@
  * Tanggal      : 10 Maret 2026
  */
 
-public class BangunDatar {
+public class BangunDatar1 {
 // Saat final ditambahkan pada kelas BangunDatar, kelas 
 // tersebut tidak bisa diwariskan, sehingga kelas
 // Persegi dan Lingkaran tidak bisa menggunakan extends
@@ -20,7 +20,7 @@ public class BangunDatar {
     protected String border;
     protected static int counterBangunDatar = 0;
 
-    public BangunDatar() {
+    public BangunDatar1() {
         counterBangunDatar++;
     }
 
@@ -31,7 +31,7 @@ public class BangunDatar {
     // this.sisi = sisi;
     // }
 
-    public BangunDatar(int jmlSisi, String warna, String border) {
+    public BangunDatar1(int jmlSisi, String warna, String border) {
         this.jmlSisi = jmlSisi;
         this.warna = warna;
         this.border = border;

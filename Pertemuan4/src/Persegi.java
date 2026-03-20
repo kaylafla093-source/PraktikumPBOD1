@@ -4,7 +4,7 @@
  * Tanggal      : 10 Maret 2026
  */
 
-public class Persegi extends BangunDatar {
+public class Persegi extends BangunDatar1 {
     private double sisi;
 
     public Persegi() {
@@ -54,6 +54,7 @@ public class Persegi extends BangunDatar {
         return sisi * Math.sqrt(2);
     }
 
+    // @Override
     // public void printInfo() {
     //     System.out.println("Jumlah sisi: " + getJmlSisi());
     //     System.out.println("Warna: " + getWarna());
@@ -61,6 +62,7 @@ public class Persegi extends BangunDatar {
     //     System.out.println("Sisi: " + sisi);
     // }
 
+    @Override
     public void printInfo() {
         super.printInfo();
         System.out.println("Sisi: " + sisi);
