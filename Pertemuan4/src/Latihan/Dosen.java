@@ -4,9 +4,8 @@
  * Tanggal      : 12 Maret 2026
  */
 
-package Latihan;
+import java.time.LocalDate;
 
-import java.time.*;
     public class Dosen extends Pegawai {
         protected String fakultas;
 

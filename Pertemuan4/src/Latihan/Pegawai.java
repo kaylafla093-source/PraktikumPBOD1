@@ -4,9 +4,9 @@
  * Tanggal      : 12 Maret 2026
  */
 
-package Latihan;
+import java.time.LocalDate;
+import java.time.Period;
 
-import java.time.*;
     public class Pegawai {
         protected String NIP;
         protected String nama;

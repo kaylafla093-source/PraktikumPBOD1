@@ -4,9 +4,8 @@
  * Tanggal      : 12 Maret 2026
  */
 
-package Latihan;
+import java.time.LocalDate;
 
-import java.time.*;
 public class MLatihan {
     public static void main(String[] args) {
         DosenTetap d = new DosenTetap (

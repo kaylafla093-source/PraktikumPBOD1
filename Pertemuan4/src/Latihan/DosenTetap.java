@@ -4,10 +4,9 @@
  * Tanggal      : 12 Maret 2026
  */
 
-package Latihan;
-
-import java.time.*;
+import java.time.LocalDate;
 import java.time.Period;
+
     public class DosenTetap extends Dosen {
         private String NIDN;
         private int BUP = 65;
