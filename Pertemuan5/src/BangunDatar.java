@@ -25,9 +25,6 @@ public abstract class BangunDatar {
     //   public abstract double getKeliling();
     //   Subclass BangunDatar harus mengisi method tersebut.
 
-    public abstract double getLuas();
-    public abstract double getKeliling();
-
     protected int jmlSisi;
     protected String warna;
     protected String border;
@@ -78,6 +75,9 @@ public abstract class BangunDatar {
     public void setBorder(String border) {
         this.border = border;
     }
+
+    public abstract double getLuas();
+    public abstract double getKeliling();
 
     // public double getLuas() {
     //     return 0.0;

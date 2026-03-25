@@ -30,15 +30,15 @@ public class MBangunDatar {
         System.out.println("Apakah Luas P1 = L1? " + P1.isEqualLuas(L1));
 
         System.out.println("Apakah Keliling L1 = L2? " + L1.isEqualKeliling(L2));
-        System.out.println("Apakah Keliling P2 = L2? " + P2.isEqualKeliling(L2)); 
+        System.out.println("Apakah Luas P2 = L2? " + P2.isEqualLuas(L2)); 
         // Method isEqualLuas dan isEqualKeliling dapat digunakan untuk membandingkan
         // objek bangun datar yang berbeda karena parameter dari method tersebut adalah 
         // BangunDatar, dimana Persegi dan Lingkaran merupakan subclass BangunDatar.
 
-        // BangunDatar B = new Lingkaran(5);
-        // System.out.println("Luas: " + B.getLuas());
-        // System.out.println("Apakah Luas B = L1?: " + B.isEqualLuas(L1));
-
+        BangunDatar B = new Lingkaran(5);
+        System.out.println("Luas: " + B.getLuas());
+        System.out.println("Apakah Luas B = L1?: " + B.isEqualLuas(L1));
+        
         System.out.println("Luas awal: " + P1.getLuas());
         ((IResize) P1).zoomIn();
         System.out.println("Luas setelah zoom in: " + P1.getLuas());
